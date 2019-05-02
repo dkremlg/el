@@ -1,6 +1,6 @@
 library(partykit)
 
-path=''
+path='/home/ubuntu/Data/Intermediate_Output/'
 
 Data=read.csv(paste0(path,'R_Training_Pax.csv'))
 Data[Data[,'NumPax']<0,'NumPax']=0
